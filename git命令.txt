@@ -1,0 +1,23 @@
+git init
+git clone 地址
+
+git add -A
+git commit -m "备注"
+git push
+
+git status
+git log                 查看记录
+git reflog              HEAD的变更记录
+git diff                查看文件做了哪些变化
+git checkout -- .       撤销更改
+git reset --hard        回退到指定版本号的版本需reflog配合
+
+config --global user.name "你的用户名"
+config --global user.emall "你的邮箱"
+ssh-keygen -t rsa -C "你的邮箱"
+remote add origin 	你复制的地址 设置origin
+push -u origin master 	指定origin为默认主机
+push			将当前分支增加的commit提交到远程仓库
+pull			获取远程仓库的commit
+
+gitconfig --global core.quotepath false  解决中文会乱码的问题

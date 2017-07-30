@@ -21,3 +21,6 @@ push			将当前分支增加的commit提交到远程仓库
 pull			获取远程仓库的commit
 
 gitconfig --global core.quotepath false  解决中文会乱码的问题
+
+http://www.cnblogs.com/schaepher/p/5561193.html		參考命令
+http://www.cnblogs.com/schaepher/p/4933873.html#first	GitHub团队合作流程
